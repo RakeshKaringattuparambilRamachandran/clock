@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    border: 0;
+    background-color: rgb(18, 18, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrange{
+    width: 500px;
+    height: 150px;
+    border-color: red;
+    /* background-color:black ; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 150px;
+}
+.hr{
+    width: 100px;
+    height: 100px;
+    border: 4px solid;
+    border-color: rgb(149, 255, 0);
+    border-radius: 50px;
+    /* background-color: rgb(141, 205, 205); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: background-color-animation 10s infinite;
+
+    
+}
+
+@keyframes  background-color-animation {
+    0% {
+        background-color: #13e621;
+    }
+    50% {
+        background-color: #f00;
+    }
+    100% {
+        background-color: #0d11d8;
+    }
+  }
+
+
+.min{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-color: rgb(149, 255, 0);
+    background-color: rgb(43, 219, 219);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: background-color-animation 10s infinite;
+    
+    
+}
+.sec{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-color: rgb(149, 255, 0);
+    background-color: rgb(30, 218, 218);
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation: background-color-animation 10s infinite;
+
+    
+}
+h1,h2,h3{
+    color: green;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+   
+}
+h2{
+    padding: 15px;
+}
+h3{
+    padding: 20px;
+}
+.sts{
+    width: 20px;
+    height:10px;
+    border: 1px solid;
+    border-color: blue;
+    border-radius: 50px;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin-top: 110px;
+}
